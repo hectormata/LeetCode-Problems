@@ -46,7 +46,11 @@ public class JewelsAndStones {
 		String strJ = "aA";
 		String strS = "aAAbbbb";
 		
-		System.out.println(numJewelsInStones(strJ, strS));
+		if (strJ.length() <= 50 && strS.length() <= 50) {
+			System.out.println(numJewelsInStones(strJ, strS));
+		}
+		else {
+			System.err.println("Too many letters - Please use less than 50 letters");
+		}
 	}
-
 }
