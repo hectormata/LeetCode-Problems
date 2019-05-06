@@ -3,11 +3,11 @@ Given a Binary Search Tree and a target number, return true if there exist two e
 Example 1:
 
 Input: 
-*    5
-*   / \
-*  3   6
-* / \   \
-*2   4   7
+*     5
+*    / \
+*   3   6
+*  / \   \
+* 2   4   7
 
 Target = 9
 
@@ -17,11 +17,11 @@ Output: True
 Example 2:
 
 Input: 
-    5
-   / \
-  3   6
- / \   \
-2   4   7
+*     5
+*    / \
+*   3   6
+*  / \   \
+* 2   4   7
 
 Target = 28
 
